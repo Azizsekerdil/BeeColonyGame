@@ -1,0 +1,2096 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.38f1 (82314a941f2d) revision 8532298'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'tr' Physical Memory: 31962 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/BeeColony Game/BeeColony/BeeColony
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+57816
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/BeeColony Game/BeeColony/BeeColony
+D:/BeeColony Game/BeeColony/BeeColony
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [85216]  Target information:
+
+Player connection [85216]  * "[IP] 10.102.37.150 [Port] 0 [Flags] 2 [Guid] 1687563466 [EditorId] 1687563466 [Version] 1048832 [Id] WindowsEditor(7,Aziz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [85216]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1687563466 [EditorId] 1687563466 [Version] 1048832 [Id] WindowsEditor(7,Aziz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [85216] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [85216] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.38f1 (82314a941f2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/BeeColony Game/BeeColony/BeeColony/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004193 seconds.
+- Loaded All Assemblies, in  0.266 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 309 ms
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (95ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (569ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (543ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (379ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.466 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 856ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (95ms)
+			BuildScriptInfoCaches (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (393ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (318ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3761 unused Assets / (0.9 MB). Loaded Objects now: 4267.
+Memory consumption went from 88.7 MB to 87.8 MB.
+Total: 5.563700 ms (FindLiveObjects: 0.400900 ms CreateObjectMapping: 0.314100 ms MarkObjects: 3.842600 ms  DeleteObjects: 1.005200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101313.183495 seconds.
+  path: Assets/FBX/Garden/Green.mat
+  artifactKey: Guid(19c7a8cc51684014ea21528aae002ea2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Garden/Green.mat using Guid(19c7a8cc51684014ea21528aae002ea2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b62098f33174f3315425cbdfa262fbd1') in 0.0762563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX/BeeCity/Grey.mat
+  artifactKey: Guid(71d3134e90f4c29419ec9233b4c36512) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/Grey.mat using Guid(71d3134e90f4c29419ec9233b4c36512) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad345f4b82757120fdbfb56b0e7e56cd') in 0.0029035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FBX/BeeCity/Green.mat
+  artifactKey: Guid(3518561e45512704d9ff8941fdb68472) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/Green.mat using Guid(3518561e45512704d9ff8941fdb68472) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47bd0558a03547bbcc44bf4ea05e3be3') in 0.0028153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FBX/Bee/BeeDancerFive.controller
+  artifactKey: Guid(877105bf356305c46a2e6bc60fe0c725) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/BeeDancerFive.controller using Guid(877105bf356305c46a2e6bc60fe0c725) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e29500279584c0f659ac1efd954fecb') in 0.0044202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FBX/BeeCity/Brown.mat
+  artifactKey: Guid(7671a1dd3c72ea043a78c40a822bbb97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/Brown.mat using Guid(7671a1dd3c72ea043a78c40a822bbb97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32017f94a6b16d16756e7dde8c5b2fc7') in 0.0030146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FBX/Script/BeeButtons.cs
+  artifactKey: Guid(cfac257f55d3b9c4b8f9a30495940c8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Script/BeeButtons.cs using Guid(cfac257f55d3b9c4b8f9a30495940c8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1be6031b5c243ecd57630ab1d33ad50e') in 0.0077001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FBX/BeeCity/Pink.mat
+  artifactKey: Guid(8a6201c2be18f1340990973c25b83710) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/Pink.mat using Guid(8a6201c2be18f1340990973c25b83710) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '165975e8653e6fcda9bd511fd1c4ccf7') in 0.0027177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FBX/Bee/BeeDancerFour.anim
+  artifactKey: Guid(79433c65439bc4843942f46a1f9d1ece) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/BeeDancerFour.anim using Guid(79433c65439bc4843942f46a1f9d1ece) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd351ccca4e0ff43ceed51aca5dbca9e9') in 0.0103848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scenes/BoomPostane.unity
+  artifactKey: Guid(b234e0e68940f934b986887bdb7caa7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BoomPostane.unity using Guid(b234e0e68940f934b986887bdb7caa7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05e405ab8892e4e3b0f7e76fd1983143') in 0.0054602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/Click.unity
+  artifactKey: Guid(13d8b8123b417a445899c343d22688d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Click.unity using Guid(13d8b8123b417a445899c343d22688d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fea20ed8399f6ead079971f926aaf5c4') in 0.0251315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FBX/Script/CamBee.cs
+  artifactKey: Guid(f3cd59b57980d6e46b92d383231df5bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Script/CamBee.cs using Guid(f3cd59b57980d6e46b92d383231df5bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e6b27b4dd52d83249c537ecde44002a') in 0.0025231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FBX/Bee/BeeDancerSix.controller
+  artifactKey: Guid(b519bc32e63042547b0051656f8ccd42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/BeeDancerSix.controller using Guid(b519bc32e63042547b0051656f8ccd42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5315735160d738d5b20fe9c8b248808') in 0.0033267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FBX/Bee/BeeDansLine.fbx
+  artifactKey: Guid(4a67e12e3d317274f82f53e35e082d61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/BeeDansLine.fbx using Guid(4a67e12e3d317274f82f53e35e082d61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f362f1ab91b91f212e0a4655fbda14f1') in 0.0301173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FBX/BeeCity/Yellow.mat
+  artifactKey: Guid(39d88383d1bee3743a04892e47961250) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/Yellow.mat using Guid(39d88383d1bee3743a04892e47961250) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '837a0bef9666452765fc7ed7b4a0b3b6') in 0.0025749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FBX/BeeCity/Purple.mat
+  artifactKey: Guid(dfe4b9ecbf891e0468f922ee0143443d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/Purple.mat using Guid(dfe4b9ecbf891e0468f922ee0143443d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65de9ce161070f09dfdba7db726116bb') in 0.002502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FBX/Bee/HiveGlass.mat
+  artifactKey: Guid(293208d54f6160e45accf1bc51589019) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/HiveGlass.mat using Guid(293208d54f6160e45accf1bc51589019) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f56be28bb1d5fa7d7f01c6e974851f55') in 0.0031836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FBX/Bee/Blue.mat
+  artifactKey: Guid(08eb6f99b8c807e45867d6e45ae955a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/Blue.mat using Guid(08eb6f99b8c807e45867d6e45ae955a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89eedab80828eebf3d1ddc7385c3a1c8') in 0.0022437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/BoomSchool.unity
+  artifactKey: Guid(4fb52efffd8d8104c99a72cee99f488d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BoomSchool.unity using Guid(4fb52efffd8d8104c99a72cee99f488d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9565336957baf98d8438cb5564782b20') in 0.004894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FBX/BeeCity/leaf.mat
+  artifactKey: Guid(7246a69a59add054d80d68817b148ecd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/leaf.mat using Guid(7246a69a59add054d80d68817b148ecd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b48236c316b5269fa47b75f6e1d68b3') in 0.0021546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FBX/Bee/BeeGround.fbx
+  artifactKey: Guid(39617d8a64b8c034f83c063acf25dd5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/BeeGround.fbx using Guid(39617d8a64b8c034f83c063acf25dd5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57238d078f7c148e64bbf92fe8bd26e4') in 0.0137222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/Garden/Purple.mat
+  artifactKey: Guid(bc988f252eab054459b8bacfded6b81b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Garden/Purple.mat using Guid(bc988f252eab054459b8bacfded6b81b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e0a1c62eda5f2f181c9c0419fc617bb') in 0.0027177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/FBX/Bee/Yellow.mat
+  artifactKey: Guid(c1a117b6e925af54db42d2fe389048b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/Yellow.mat using Guid(c1a117b6e925af54db42d2fe389048b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22e2a909502cef3e074a60e8d7af386c') in 0.0058217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FBX/Bee/Ground 2.mat
+  artifactKey: Guid(1ce837b45dd7d434ea408a35532291c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/Ground 2.mat using Guid(1ce837b45dd7d434ea408a35532291c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc1e5b8440c06bae2cd390e9a04ce941') in 0.0156399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FBX/Bee/BeeDancerThreeTwo.controller
+  artifactKey: Guid(0729b59df754ed548b28433852bbe33d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Bee/BeeDancerThreeTwo.controller using Guid(0729b59df754ed548b28433852bbe33d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce5f3e29d22045b6f008326792adc6da') in 0.0035255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/BeeCity/stick.mat
+  artifactKey: Guid(a51335b5a320ae1458f4ff66173367ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/stick.mat using Guid(a51335b5a320ae1458f4ff66173367ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cc5f00a2b148ed069685ff5243c7198') in 0.0024469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(289c1b55c9541489481df5cc06664110) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(289c1b55c9541489481df5cc06664110) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '199afb050f1fc6064714689ba68720c0') in 0.1430885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341884 seconds.
+  path: Assets/FBX/Script/FlowerMake.cs
+  artifactKey: Guid(4491f97222ca1e84dbb223844bdc6b58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Script/FlowerMake.cs using Guid(4491f97222ca1e84dbb223844bdc6b58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5a0155d700990b9fbb1d6c8983259b8') in 0.002546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scenes/City/Lightmap-23_comp_dir.png
+  artifactKey: Guid(bbaacc2000d70af499ce67f3fcf10b85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-23_comp_dir.png using Guid(bbaacc2000d70af499ce67f3fcf10b85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4804716d440412ab62da368d47063d3f') in 0.025137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/City/Lightmap-26_comp_light.exr
+  artifactKey: Guid(ac607e2d76ab8a5458523e60372999bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-26_comp_light.exr using Guid(ac607e2d76ab8a5458523e60372999bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '848ec96d8710c72e57f13596d1524f17') in 0.0114202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/City/Lightmap-11_comp_light.exr
+  artifactKey: Guid(c7bee26ad6d209d48926e34bfe822a5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-11_comp_light.exr using Guid(c7bee26ad6d209d48926e34bfe822a5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5794603cf38c6358a8c43ad1c84cb520') in 0.0097565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Particle/Brushes/Debris.mat
+  artifactKey: Guid(d832882f0e9bae24a8aef594f2df0215) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Debris.mat using Guid(d832882f0e9bae24a8aef594f2df0215) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '227a0031b095c1205ea40b2df0abee53') in 0.0413098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ae25a4e37d227886cc73c10af5195d9') in 0.0277045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FBX/UI/Hive.png
+  artifactKey: Guid(e9d8d8a86e7209945bd761739cabe5b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/Hive.png using Guid(e9d8d8a86e7209945bd761739cabe5b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1804a07d417afcc7a38752b3156a04f0') in 0.013379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/City/Lightmap-23_comp_light.exr
+  artifactKey: Guid(fecae598903cee649bd461faa6063fdb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-23_comp_light.exr using Guid(fecae598903cee649bd461faa6063fdb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5de21a4d7cf57d9e128efa1b27d81b93') in 0.0118718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scenes/City/Lightmap-0_comp_light.exr
+  artifactKey: Guid(62a736f1e634d4a49a043d9e7945157a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-0_comp_light.exr using Guid(62a736f1e634d4a49a043d9e7945157a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '245348838785bc4c485df556694313a7') in 0.0078335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX/Script/Sound.cs
+  artifactKey: Guid(f4a305b5cfbe34d49aa52efae29fa6cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Script/Sound.cs using Guid(f4a305b5cfbe34d49aa52efae29fa6cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd40b1f5d10cf409f611e072fd9a0ef78') in 0.0023967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml.DISABLED
+  artifactKey: Guid(c041d71b64e5efe44a935894d4c6da30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Android/AndroidManifest.xml.DISABLED using Guid(c041d71b64e5efe44a935894d4c6da30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94da80daab95a03fa725a17d9c8113cd') in 0.0018804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/FBX/UI/Asset 100.png
+  artifactKey: Guid(070e50f0eaecf734487a61a8679e288a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/Asset 100.png using Guid(070e50f0eaecf734487a61a8679e288a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d4a5f5b4b7f28253e0ae37b44620ab4') in 0.0132986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FBX/Script/HiveYellow.cs
+  artifactKey: Guid(0578c4cf0e30b6f43a2833e94388d82a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Script/HiveYellow.cs using Guid(0578c4cf0e30b6f43a2833e94388d82a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ecbff1d39fbbbd4c5f5fc9314c6c9b2') in 0.0023079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/FBX/UI/BeeHome.png
+  artifactKey: Guid(0e5dbcdf5c1f6174c964c7b6ce330268) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/BeeHome.png using Guid(0e5dbcdf5c1f6174c964c7b6ce330268) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '302266aac581c9dae5886c0b3178d0f5') in 0.0085791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FBX/UI/Asset 86@2x.png
+  artifactKey: Guid(9cc27662a6110044380af8b26c6f7f89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/Asset 86@2x.png using Guid(9cc27662a6110044380af8b26c6f7f89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f3955a1ff9b0dfd57a2916f7e2dc248') in 0.011189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FBX/UI/Icon.png
+  artifactKey: Guid(d6babae257fb67148b6cb9e803395ff2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/Icon.png using Guid(d6babae257fb67148b6cb9e803395ff2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25ed093a3626b3d6687ad4f313b75e1f') in 0.0110014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Particle/Brushes/Fog.mat
+  artifactKey: Guid(9e8ab7f14fe59a24b84b7e5c4a271fa9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Fog.mat using Guid(9e8ab7f14fe59a24b84b7e5c4a271fa9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ef59a43f3edd816c2300a2e179d0381') in 0.0048065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/City/Lightmap-25_comp_dir.png
+  artifactKey: Guid(704b3df285199a3429b477b55c7d79c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-25_comp_dir.png using Guid(704b3df285199a3429b477b55c7d79c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f48b93a4e5f3676ffade4ebf8cfaede') in 0.0105933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/City/Lightmap-21_comp_dir.png
+  artifactKey: Guid(3e46ca7b46549124c81d51140bf73a36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-21_comp_dir.png using Guid(3e46ca7b46549124c81d51140bf73a36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c467d623043b427c3421129a4be3144f') in 0.0138097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scenes/City/Lightmap-19_comp_dir.png
+  artifactKey: Guid(8d7966c9dab0d5e4794561d16d4aca59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-19_comp_dir.png using Guid(8d7966c9dab0d5e4794561d16d4aca59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ca3ae5c7b2d132f96bd18766c28f1e5') in 0.0086772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Scenes/City/Lightmap-21_comp_light.exr
+  artifactKey: Guid(f312e436fcf2e2145b21fef41e92f575) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-21_comp_light.exr using Guid(f312e436fcf2e2145b21fef41e92f575) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dcfaf5254608184c682b96d6604f985') in 0.0117733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/FBX/UI/Asset 142@2x.png
+  artifactKey: Guid(8ae6a64127aa49242a4b3a0aa01f9114) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/Asset 142@2x.png using Guid(8ae6a64127aa49242a4b3a0aa01f9114) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f6d4258f2a8da4070976df910b72599') in 0.0100216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Android/LauncherManifest.xml
+  artifactKey: Guid(583a415853e6a0141a046e1082da11ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Android/LauncherManifest.xml using Guid(583a415853e6a0141a046e1082da11ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19a7b2e044b13fcde63a02f9c9123208') in 0.0026142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Scenes/City/Lightmap-25_comp_light.exr
+  artifactKey: Guid(5695ef9efa818bd49abc131801fee746) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-25_comp_light.exr using Guid(5695ef9efa818bd49abc131801fee746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb20edb8866cd895944ca4d0f561cdd3') in 0.0090993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FBX/UI/MoneyCanvas.anim
+  artifactKey: Guid(7e19c08cd29484846aceb7d05c26e1c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/MoneyCanvas.anim using Guid(7e19c08cd29484846aceb7d05c26e1c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7af16fb6d10484f287d86434e26e99e') in 0.0037131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Particle/Brushes/Fog.png
+  artifactKey: Guid(6f9f331f889ba9f4a9293a76ca545f6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Fog.png using Guid(6f9f331f889ba9f4a9293a76ca545f6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdcb7b9b2524644a53afeb63459adc41') in 0.0060623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Plugins/Android/baseProjectTemplate.gradle
+  artifactKey: Guid(029a7e8e00b4b7a47be777f1a712fbe0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/Android/baseProjectTemplate.gradle using Guid(029a7e8e00b4b7a47be777f1a712fbe0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6b0e8d4d0cc316baeb1ef09ea429829') in 0.0029486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/FBX/Script/MoneyCanvas.cs
+  artifactKey: Guid(f2c7f0723896c6f448e181b84bdd3419) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Script/MoneyCanvas.cs using Guid(f2c7f0723896c6f448e181b84bdd3419) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3277c23686fa1cd1165199ade136916a') in 0.0021413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Scenes/City/Lightmap-12_comp_light.exr
+  artifactKey: Guid(fff267a73e1ece9408224f7f0a82194c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-12_comp_light.exr using Guid(fff267a73e1ece9408224f7f0a82194c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'facf090477374a800f19e41a1b266edc') in 0.0086784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/FBX/UI/btn_two.png
+  artifactKey: Guid(13ec85668c1a2fb4293db8751f7b360f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/btn_two.png using Guid(13ec85668c1a2fb4293db8751f7b360f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4755012a1a46e447ce8ee2218ee41f2') in 0.0080354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/City/Lightmap-15_comp_dir.png
+  artifactKey: Guid(9016759c186e66e49b1ac132574ecaf8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-15_comp_dir.png using Guid(9016759c186e66e49b1ac132574ecaf8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de5a80bb75f670838888b0373737a46c') in 0.0105077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/City/Lightmap-22_comp_light.exr
+  artifactKey: Guid(71b84f070d4c03344a3417910de3cd81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-22_comp_light.exr using Guid(71b84f070d4c03344a3417910de3cd81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbf8e6c9f3de4e3462efe09c2c9e5eae') in 0.009188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Scenes/City/Lightmap-24_comp_dir.png
+  artifactKey: Guid(6be65be247bd2a14aaa199dd97fba8d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-24_comp_dir.png using Guid(6be65be247bd2a14aaa199dd97fba8d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e1a32b63918d23b1ea386ad556c33e5') in 0.0081572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Scenes/City/Lightmap-17_comp_light.exr
+  artifactKey: Guid(f659d95bbca8dab49beaabef1b06d66c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-17_comp_light.exr using Guid(f659d95bbca8dab49beaabef1b06d66c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a745274657123b686d1fb119b835a6a') in 0.0107851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/City/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e52f7cd5a78a0c042a61ee7508b38421) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-1_comp_dir.png using Guid(e52f7cd5a78a0c042a61ee7508b38421) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4219031a576326d9ab22401dde56c855') in 0.0083754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Particle/Brushes/Debris.png
+  artifactKey: Guid(3a32dde8182e04348b8b358bdde41fce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Debris.png using Guid(3a32dde8182e04348b8b358bdde41fce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec9cdad9f08509ad6c273840fcf97cc4') in 0.0081418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Particle/Brushes/Portal.mat
+  artifactKey: Guid(ffa2d44fbcf073141bb27a66c34dee04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Portal.mat using Guid(ffa2d44fbcf073141bb27a66c34dee04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '382509ca9566c670310d4522a951795e') in 0.0058375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Particle/Brushes/Portal.png
+  artifactKey: Guid(8af0200ee0088c84daefa6b004207341) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Portal.png using Guid(8af0200ee0088c84daefa6b004207341) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '897f4a466094fe1a29cc547e678467e4') in 0.0075349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Scenes/City/LightingData.asset
+  artifactKey: Guid(267c653311424f442b48ac4e2d4a4036) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/LightingData.asset using Guid(267c653311424f442b48ac4e2d4a4036) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fb9e3528dd9682525d609c921b1c068') in 0.0102291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/City/Lightmap-12_comp_dir.png
+  artifactKey: Guid(1eb731bbe34453e4092a526d13a96f86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-12_comp_dir.png using Guid(1eb731bbe34453e4092a526d13a96f86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d0c8ff25c3527bf1ce4711aca1aead8') in 0.0081639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Particle/Brushes/Fire.png
+  artifactKey: Guid(524440e560838754dad9b36b9391f541) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Fire.png using Guid(524440e560838754dad9b36b9391f541) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e95989c6b3a49ea8332be099a22e797') in 0.0093922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/City/Lightmap-16_comp_dir.png
+  artifactKey: Guid(a13016b69dbacc64082b96c7902bdb26) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-16_comp_dir.png using Guid(a13016b69dbacc64082b96c7902bdb26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a7ca6fe44f0b92c989ecf02d622be41') in 0.0078212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scenes/City/Lightmap-20_comp_light.exr
+  artifactKey: Guid(c7ae8e2feea205a46bd57ae1858beb45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-20_comp_light.exr using Guid(c7ae8e2feea205a46bd57ae1858beb45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08533761f58edd3b4b9a92ca5aa9a0f7') in 0.0088125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.522596 seconds.
+  path: Assets/Scenes/City/Lightmap-27_comp_light.exr
+  artifactKey: Guid(65e41c58e636bd549b3550dcc91bc4a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-27_comp_light.exr using Guid(65e41c58e636bd549b3550dcc91bc4a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45caf02df1a5cb9fb1c4b61e587c3a1b') in 0.0088174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FBX/UI/BeeyButtons/19.png
+  artifactKey: Guid(120448bcfe67ea34cae3399aa230f33a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/BeeyButtons/19.png using Guid(120448bcfe67ea34cae3399aa230f33a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c0647fe90f95ad7294e53a0548a7fe9') in 0.0058024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c3c3b57ae7288257dc61ca0c7e6d2d5') in 0.0050275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b998dd85cffecfa333cceb45ee0c85cc') in 0.0029962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FBX/UI/BeeyButtons/7.png
+  artifactKey: Guid(710c94e0d4b3ea244a3f51ab7abbe3ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/BeeyButtons/7.png using Guid(710c94e0d4b3ea244a3f51ab7abbe3ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffc1aeef280a33860d30894a3246ed6a') in 0.0066856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2518b24be05ccc74317923401e11ed96') in 0.0030237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/Click/Lightmap-0_comp_light.exr
+  artifactKey: Guid(1c19c7e0e733f514882687962ab3bf3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Click/Lightmap-0_comp_light.exr using Guid(1c19c7e0e733f514882687962ab3bf3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d11ba75ecfc0acf85bc1eda5a4c2e45') in 0.0076997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FBX/BeeCity/BeeBoom/BeeBoom.prefab
+  artifactKey: Guid(e731b2a8681768b4e8c63f848cdc5a08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/BeeBoom/BeeBoom.prefab using Guid(e731b2a8681768b4e8c63f848cdc5a08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc8600e8002b40982b424ed5c8c09296') in 0.0121791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/City/ReflectionProbe-0.exr
+  artifactKey: Guid(dbc3948dfa8e9d945969ab1ac1029282) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/ReflectionProbe-0.exr using Guid(dbc3948dfa8e9d945969ab1ac1029282) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16f9200f8107cf552a6f82b1526e2c1d') in 0.0094717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0cae230a2df5c8b3b3d86d434ae2e64') in 0.0024912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/City/Lightmap-33_comp_dir.png
+  artifactKey: Guid(bd9d3f094491fc74a89ee4a1126c2ebb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-33_comp_dir.png using Guid(bd9d3f094491fc74a89ee4a1126c2ebb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0f5d41a117bf76e3818523054660421') in 0.007654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a311bf82603e678b48c285e6e798084') in 0.0019372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/FBX/UI/BeeyButtons/23.png
+  artifactKey: Guid(74d76ec564d548c46b34680cbd1d0f4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/BeeyButtons/23.png using Guid(74d76ec564d548c46b34680cbd1d0f4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f66040465bf609233bf32817396ac3c8') in 0.0068629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FBX/UI/Anim/PushCircleHand.anim
+  artifactKey: Guid(21761a74c2dc56b4fa6e944317dc42bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/Anim/PushCircleHand.anim using Guid(21761a74c2dc56b4fa6e944317dc42bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88fb4d022ff892d0380e2dc8707835d5') in 0.00324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/City/Lightmap-8_comp_light.exr
+  artifactKey: Guid(d9df994dd847e3f4aace95e2c0897d24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-8_comp_light.exr using Guid(d9df994dd847e3f4aace95e2c0897d24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54425148d0f7ea6950cfc25ae63fc6c3') in 0.0108487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e26dec2a388bf65d52c50eed2e367f1') in 0.0033215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Click/Lightmap-4_comp_dir.png
+  artifactKey: Guid(2393ab60970d4dc4499140da89cd29a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Click/Lightmap-4_comp_dir.png using Guid(2393ab60970d4dc4499140da89cd29a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acc7fecf457069540b0cc8c32359f338') in 0.0097504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/City/Lightmap-5_comp_dir.png
+  artifactKey: Guid(69b30e6d368670945b6eaac679a21e98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-5_comp_dir.png using Guid(69b30e6d368670945b6eaac679a21e98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e2628365c20d6d693145b4f6f9169e4') in 0.0064696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/City/Lightmap-30_comp_light.exr
+  artifactKey: Guid(d204c15e45832044794e9a0b3f0545cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-30_comp_light.exr using Guid(d204c15e45832044794e9a0b3f0545cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e41edbddfd636d40d71f6b9b898c7c0') in 0.0088547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FBX/Script/Test/Test.cs
+  artifactKey: Guid(f3ae6ec4134561247b52995e0cfbb621) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Script/Test/Test.cs using Guid(f3ae6ec4134561247b52995e0cfbb621) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c80ddf6b8d880ea9795da7f3ce96d737') in 0.0022362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/FBX/BeeCity/BeeBoom/LineRender.mat
+  artifactKey: Guid(36976fbf39bdff84ab494ac83be40929) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/BeeBoom/LineRender.mat using Guid(36976fbf39bdff84ab494ac83be40929) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0261f4ac00ec3ba43f16d349b3c4467') in 0.0027846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e0276a7eea6e5f5bdaa0e3eb712d868') in 0.0024961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37fc6ba970cf372a0e0ea9691ec28788') in 0.0021166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4778070fdcf4cccb72248b8e7d4c19d6') in 0.0019458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scenes/City/Lightmap-8_comp_dir.png
+  artifactKey: Guid(ce6ed3b5a347bf9499be95d57035a844) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-8_comp_dir.png using Guid(ce6ed3b5a347bf9499be95d57035a844) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '185da376d8385afbebe7ab7253b3842a') in 0.0071896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FBX/UI/BeeyButtons/21.png
+  artifactKey: Guid(d81a3a2f2811d624a8cae6d98280dc6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/BeeyButtons/21.png using Guid(d81a3a2f2811d624a8cae6d98280dc6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '533ed35366abccb495eb833b65759ccc') in 0.005593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Scenes/Click/Lightmap-2_comp_light.exr
+  artifactKey: Guid(232e1ef69cd841541b0f3bb453f099ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Click/Lightmap-2_comp_light.exr using Guid(232e1ef69cd841541b0f3bb453f099ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '327e199650f6475b0fecf8e79cc7768d') in 0.0078306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/Option/OptionPanel.prefab
+  artifactKey: Guid(b74f5d77d7e97eb40897fc21faab3a3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Option/OptionPanel.prefab using Guid(b74f5d77d7e97eb40897fc21faab3a3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f0f02b508e5d5926d6daf6a3944db4a') in 0.0330309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/City/Lightmap-32_comp_dir.png
+  artifactKey: Guid(a0be60ee678d35b4cacb95abe44392f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-32_comp_dir.png using Guid(a0be60ee678d35b4cacb95abe44392f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba722787deb02757afd0f21320a59ca2') in 0.006552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/FBX/UI/BeeyButtons/3.png
+  artifactKey: Guid(6fbcd086944e8a34ca9294f01c12add4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/BeeyButtons/3.png using Guid(6fbcd086944e8a34ca9294f01c12add4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdebbb6ec995fa0afb3777ef73ed6f41') in 0.0077218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FBX/UI/BeeyButtons/5.png
+  artifactKey: Guid(f13414066416c7040ac49ac7468b3d23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/BeeyButtons/5.png using Guid(f13414066416c7040ac49ac7468b3d23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3e04c4bdc67e55111360706c3482119') in 0.0059662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48561ac89177921cec527fed0c382d23') in 0.0020768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/Option/Option.prefab
+  artifactKey: Guid(75717cfe8eb3d034882640a86d20e733) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Option/Option.prefab using Guid(75717cfe8eb3d034882640a86d20e733) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b3b1835e01a3dbe44c94dad28a708aa') in 0.0143764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/City/Lightmap-4_comp_dir.png
+  artifactKey: Guid(92349bf1415126643be3d7bcbd0bae9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/City/Lightmap-4_comp_dir.png using Guid(92349bf1415126643be3d7bcbd0bae9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f066ea7b1d16678fb75d3d166ae3af7') in 0.0075869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73b825000ff8195f83e63f4430ae3538') in 0.0030953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FBX/BeeCity/Materials/Line.mat
+  artifactKey: Guid(2c2fda4a31648384c9cc7df53c387ec7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/Materials/Line.mat using Guid(2c2fda4a31648384c9cc7df53c387ec7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d66f2dd53a1358d45d26336ec674777') in 0.0037128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FBX/Script/BeeBoom/BeeHomeBoom.cs
+  artifactKey: Guid(8621d6339b975e94ca11456b6854a338) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/Script/BeeBoom/BeeHomeBoom.cs using Guid(8621d6339b975e94ca11456b6854a338) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c37730275e48d21a832313d4155f9746') in 0.002258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FBX/UI/Anim/HandY.controller
+  artifactKey: Guid(2a161adc4f287c4479c47261dffafddd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/Anim/HandY.controller using Guid(2a161adc4f287c4479c47261dffafddd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bba49c206947f10301192d8464b26c26') in 0.0028135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FBX/BeeCity/BeeBoom/25.fbx
+  artifactKey: Guid(6ab71d940e6d2a345aea9cca5c64a4fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/BeeCity/BeeBoom/25.fbx using Guid(6ab71d940e6d2a345aea9cca5c64a4fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ac5c50c56966414f47411673372e5ea') in 0.010073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596043 seconds.
+  path: Assets/FBX/UI/BeeyButtons/UISlider.png
+  artifactKey: Guid(8d00d3f5c3684a84d9012ea22c699d2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/FBX/UI/BeeyButtons/UISlider.png using Guid(8d00d3f5c3684a84d9012ea22c699d2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24e067881ff9b3ace796de44b0a30d2a') in 0.0138329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+  artifactKey: Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity using Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '160feabd760f918ae6f1b77a17a6bd7a') in 0.0043282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowTop.png
+  artifactKey: Guid(a2f93ca782289dd4ea8b43544a2dd720) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowTop.png using Guid(a2f93ca782289dd4ea8b43544a2dd720) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c342f3595809bc9298f9cd9300c24aa') in 0.0064117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Particle/Brushes/Prefab/Fire.prefab
+  artifactKey: Guid(b44c16d7fd817cd499d7e8b8898ed352) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Prefab/Fire.prefab using Guid(b44c16d7fd817cd499d7e8b8898ed352) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcace2fbc7cac74b139c0b15788a337f') in 0.0428198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity
+  artifactKey: Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/25 - Sunny Days Example.unity using Guid(f9b4c22e15cff344ba9fc6542a58dd07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b73e3e75af6ecf2737ab1d41a56e14a6') in 0.0035949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Settings.png
+  artifactKey: Guid(d8ae3c17487fd034e8b7b6f782d98260) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Settings.png using Guid(d8ae3c17487fd034e8b7b6f782d98260) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca55e0597b3528bbe5efcff5c26ba0c0') in 0.0065098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Lock.png
+  artifactKey: Guid(dab9fb85824f5cc41a26f93c45dff36d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Lock.png using Guid(dab9fb85824f5cc41a26f93c45dff36d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94c487c6be2b666d0b9ae373f824dc42') in 0.0096785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowLeft.png
+  artifactKey: Guid(5af9190917698af4db43c30e0a01617e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowLeft.png using Guid(5af9190917698af4db43c30e0a01617e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74101e043b667ff7aa536b5cec2c8e1f') in 0.0059392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt
+  artifactKey: Guid(f28c334d44214474d9702d3ad79ecb0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold - AFL.txt using Guid(f28c334d44214474d9702d3ad79ecb0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd3af28a2aed6072d7920898a74663f7') in 0.0017833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+  artifactKey: Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity using Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11501c7969672b374e0465a3cdad5794') in 0.0032188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Win 2.jpg
+  artifactKey: Guid(88c1e5be450a95340b20d2ce50ee6e27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Win 2.jpg using Guid(88c1e5be450a95340b20d2ce50ee6e27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65a675f560c50e987821dceeb26192a6') in 0.0108414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Mail.png
+  artifactKey: Guid(4185c8890e883424b8409a55824fe54f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Mail.png using Guid(4185c8890e883424b8409a55824fe54f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b3212418ab180cbded00a58675fcd22') in 0.0066208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2781abc2893d833024f8614fb37228d6') in 0.0022808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Trophy.png
+  artifactKey: Guid(622512446a2443f4da7ba1ca9c089e2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Trophy.png using Guid(622512446a2443f4da7ba1ca9c089e2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a9a0d5b3a15f3254f9342df813730dc') in 0.0080306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat
+  artifactKey: Guid(3b5cc91c3bf8cf74391252247f52fb59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat using Guid(3b5cc91c3bf8cf74391252247f52fb59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '769948e46a985b1aa3ce31cc7f8863de') in 0.0061828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat
+  artifactKey: Guid(71529b88994c1a341b22bc57c038674a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - URP.mat using Guid(71529b88994c1a341b22bc57c038674a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f46267eceb0a06666addf0410c4694c2') in 0.002702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity
+  artifactKey: Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/05 - Style Tags.unity using Guid(70615243e2be4a81afaab9bf5d273d65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aa15c7653e852a9f4133f5353cbb3d9') in 0.0032096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity
+  artifactKey: Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/14 - Multi Font & Sprites.unity using Guid(22a2fba786ad4c40ac0ba09f0b933100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4197255293aa0a9c4bd581134de93624') in 0.0024782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+  artifactKey: Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity using Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6585f09e6c322f66a9e725746c0401ae') in 0.0042844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  artifactKey: Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6a9bc8bebc1629e22cf552b2f36a81e') in 0.002476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+  artifactKey: Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt using Guid(d2cf87a8a7a94aa8b80dff1c807c1178) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '507a32918eb8d7ec22ba0960b11142d6') in 0.0019852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowSimpleLeft.png
+  artifactKey: Guid(65e1e5ba93d2d29498d6654b5e6b1b22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/ArrowSimpleLeft.png using Guid(65e1e5ba93d2d29498d6654b5e6b1b22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdcaf897bd2ac484cc2f8b57e0f3060a') in 0.0072405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Boutons 2.jpg
+  artifactKey: Guid(68262cb7b8312aa47a186adff07b44eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Boutons 2.jpg using Guid(68262cb7b8312aa47a186adff07b44eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9557a09dcb867c9a4a2b5a986b2e7f89') in 0.0127828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity
+  artifactKey: Guid(57694ed9d1cd1e340a4924c0f2eac8e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/24 - Surface Shader Example URP.unity using Guid(57694ed9d1cd1e340a4924c0f2eac8e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb2e30f9c95df3b715cdb001ec8803cf') in 0.0054246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  artifactKey: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47a09914b3763ebda42edcf78a201768') in 0.0020611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity
+  artifactKey: Guid(08572ab7713642c8a60789750f0bce5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12a - Text Interactions.unity using Guid(08572ab7713642c8a60789750f0bce5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94c0fc6f7a5430ef935ddeaf1346e102') in 0.0025502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Particle/Brushes/Prefab/Fog.prefab
+  artifactKey: Guid(41eb6bf5f19e8b54ead033f6fd01ab1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Prefab/Fog.prefab using Guid(41eb6bf5f19e8b54ead033f6fd01ab1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aab345407ed9273634c27833bb549293') in 0.0182663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Particle/Brushes/Prefab/Snow.prefab
+  artifactKey: Guid(62e44c83e5c68ce47aa5aa59e19512dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Particle/Brushes/Prefab/Snow.prefab using Guid(62e44c83e5c68ce47aa5aa59e19512dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1139e964b8c55e010e10c5c3afec4685') in 0.0206585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity
+  artifactKey: Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity using Guid(9747140c28254be2adc582210dfb89b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8810cafa6ab3b51abe60b75865369114') in 0.0026825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e298f2ad22a70306a3ad8ef9da615581') in 0.0025124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Win 1.jpg
+  artifactKey: Guid(b61725024ae638047b615b241b6607a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Win 1.jpg using Guid(b61725024ae638047b615b241b6607a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '306362e3fdb527795391fa432d4d4903') in 0.0131377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e3033fa0f3ae10cbb525aec7ff690aa') in 0.0021264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Challenge.jpg
+  artifactKey: Guid(27cecdf761f0c9b4eaad689cb5513737) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/SCREENS/Challenge.jpg using Guid(27cecdf761f0c9b4eaad689cb5513737) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d6250385fa2428f29fc2b3eae03cb8f') in 0.0104527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/Prize Machine.psd
+  artifactKey: Guid(a0e1f1458b0d2bc46828bbc9375aca82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Artwork PSD + Screens/PSD/Prize Machine.psd using Guid(a0e1f1458b0d2bc46828bbc9375aca82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cf7c7528ab94e22f6b9f3707882a201') in 0.0121518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Background/Background 3.png
+  artifactKey: Guid(3971118ed82aa1e47baefcf582847ad5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Background/Background 3.png using Guid(3971118ed82aa1e47baefcf582847ad5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07d7789dd0088b8da2af7208cdeb9043') in 0.0117568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+  artifactKey: Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity using Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52643ece0826ddbfd3d8d93bb7882e8e') in 0.0023818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc7a62e76db84dfdadc3f946cb44a48f') in 0.001687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/MagnifyingGlass.png
+  artifactKey: Guid(5d165335eb37020488b585bcc9865421) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/MagnifyingGlass.png using Guid(5d165335eb37020488b585bcc9865421) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a7a9298e543a9d529268f4d72523e0d') in 0.0078946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Stop.png
+  artifactKey: Guid(17220b77849d6d847a823a94227965b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Additional White Icons/Stop.png using Guid(17220b77849d6d847a823a94227965b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e18b5fef786631438adaa38fef4c2b88') in 0.0058661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.412423 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6992cb4b08e62550341eff583fc45a81') in 0.0024574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bow/Bow White.png
+  artifactKey: Guid(7770f99d7a4d08943ad3dc0661683054) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bow/Bow White.png using Guid(7770f99d7a4d08943ad3dc0661683054) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cd75b40be498b08988f40b327fe6753') in 0.0079027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Hand/Outline.png
+  artifactKey: Guid(b06e47e01add0a04daa49f92016740b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Hand/Outline.png using Guid(b06e47e01add0a04daa49f92016740b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '637a3a271d1f9bc0626abe8827586589') in 0.0076933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c107c9f56e55e15b85b4d830185058f') in 0.008955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Double Sword/Double Sword.psd
+  artifactKey: Guid(4e5f1b2596b2db4448b7066f84184eae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Double Sword/Double Sword.psd using Guid(4e5f1b2596b2db4448b7066f84184eae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3d3750607b7e8548a1b8205341de4c6') in 0.0067814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Diplome/Diplome.png
+  artifactKey: Guid(17dcd5aa3079ae544b17fac92fa3dd0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Diplome/Diplome.png using Guid(17dcd5aa3079ae544b17fac92fa3dd0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b996b70d24f03630550f648273fba8db') in 0.0057085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Purple.png
+  artifactKey: Guid(e7eac97092b3e9f4194d05f2df8dc2d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Purple.png using Guid(e7eac97092b3e9f4194d05f2df8dc2d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc5999a98be95c892dc3dd3da6d13a20') in 0.0073983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Orange.png
+  artifactKey: Guid(8c20c89b876cdc64bbd079069784164c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Orange.png using Guid(8c20c89b876cdc64bbd079069784164c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaeb86dd07973c88f7ddec608af7dbd4') in 0.0062177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab6e991dc834652ef395411670440729') in 0.0063846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/White.png
+  artifactKey: Guid(8cc1d03cea90e204aa9c77ea717544ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/White.png using Guid(8cc1d03cea90e204aa9c77ea717544ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38c47a8e3fdaa21fc41f9bcc92860e70') in 0.0071092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58de6e5e0d0c20e907fd21cc70060a90') in 0.0075266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Double Sword/Double Sword.png
+  artifactKey: Guid(ec5b4fedda423c84281cff009833a11f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Double Sword/Double Sword.png using Guid(ec5b4fedda423c84281cff009833a11f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebd1cf365227047e737b4134d7ad8540') in 0.0109155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5afee66acf03d72fc501481ee6ef3d8') in 0.0020308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c859281964521c8538dd1b6cbf63491d') in 0.0034773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/Blue.png
+  artifactKey: Guid(421196d62fd2ef744876c84fcc94a8e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/Blue.png using Guid(421196d62fd2ef744876c84fcc94a8e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bb64ff30ccef9a98d8ff4fd5c6efcd2') in 0.0070939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Eye/Eye.psd
+  artifactKey: Guid(2df1bf089135151429c5a631f2472488) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Eye/Eye.psd using Guid(2df1bf089135151429c5a631f2472488) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1113af92b6f264db3cb257197980fad') in 0.0056992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sherif Stars/White.png
+  artifactKey: Guid(a11df4c0a9061124ab859b1d9ee81782) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sherif Stars/White.png using Guid(a11df4c0a9061124ab859b1d9ee81782) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99962c4624e99a341078541f17a9e73d') in 0.0075778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Firecracker.png
+  artifactKey: Guid(1dae82b2e4cc4224cb839f424d54dde1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Firecracker/Firecracker.png using Guid(1dae82b2e4cc4224cb839f424d54dde1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b78d932d281f23c09148fd12803a4edb') in 0.0061026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/White.png
+  artifactKey: Guid(ff3dab5b19702d7448eeaa9a10e59db9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Flag/White.png using Guid(ff3dab5b19702d7448eeaa9a10e59db9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4453f179ba2c131335c5fe3fa9bdce8e') in 0.0068418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Card.png
+  artifactKey: Guid(a4d8637bccc82e94a9fc1ca9e87888dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Card.png using Guid(a4d8637bccc82e94a9fc1ca9e87888dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94ad9d68acf1198581f50b49e329d159') in 0.006861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Skull.psd
+  artifactKey: Guid(1f3c6e33be3d219478299471f1e2bcd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Skull.psd using Guid(1f3c6e33be3d219478299471f1e2bcd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8472e5d4b10c9d6d573a1ee57274d8a') in 0.0073696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Purple.png
+  artifactKey: Guid(a51141a72e8c67943b4b9d613470189b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Purple.png using Guid(a51141a72e8c67943b4b9d613470189b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efd601d14421e2f2d54ce7cc4c450ab3') in 0.0063898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Red.png
+  artifactKey: Guid(c5b8f60b5d4be4c458ff8c3afe5ab594) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Red.png using Guid(c5b8f60b5d4be4c458ff8c3afe5ab594) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f920135e060e905f971271cfba4772ce') in 0.0061091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bomb/Bomb.png
+  artifactKey: Guid(6f33133a895fb9b44800f7e6f924b0a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bomb/Bomb.png using Guid(6f33133a895fb9b44800f7e6f924b0a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01ed12ec48db704a0b3fdd2c2c023dc2') in 0.0068441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Open Book/Open book.png
+  artifactKey: Guid(233a15292dd61d6468db55897b8adde2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Open Book/Open book.png using Guid(233a15292dd61d6468db55897b8adde2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6747aaafe7a731f1b437ec808b7e4f65') in 0.006291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Cup/Outline.png
+  artifactKey: Guid(bf9f91627a678b6428f954b26214c1f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Cup/Outline.png using Guid(bf9f91627a678b6428f954b26214c1f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '656168b557c6e054614d60cd9eefca88') in 0.0076099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Open Book/White.png
+  artifactKey: Guid(56cf2730653a0fb46bd5fe4e349d8e04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Open Book/White.png using Guid(56cf2730653a0fb46bd5fe4e349d8e04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4f9f10caf13170b3b162a1b563afc62') in 0.00774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Yellow.png
+  artifactKey: Guid(e8c7c83965a19564c9065c74520506f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Bolt/Yellow.png using Guid(e8c7c83965a19564c9065c74520506f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '475daf7837bcdb1ff39ed0e4d85523b8') in 0.0068216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Pills/Pills.psd
+  artifactKey: Guid(68a29a97a23cd774098d89760f976c7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Pills/Pills.psd using Guid(68a29a97a23cd774098d89760f976c7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f584a78595dc4143aacf881a28010718') in 0.0071097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd81ab1eed25ce811628c9c2ce23ab04a') in 0.0059158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Clover/Clover.png
+  artifactKey: Guid(5d0ac6b7bec430a48a9007365b3bfd5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Clover/Clover.png using Guid(5d0ac6b7bec430a48a9007365b3bfd5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1958b5851c3a77e7e46c1d990d52cc02') in 0.0071707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Mushroom/Outline.png
+  artifactKey: Guid(180c40c0a79fa7b4f98af4596ec5bb4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Mushroom/Outline.png using Guid(180c40c0a79fa7b4f98af4596ec5bb4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35ce8404ecfde8eb0af6e4594003e98b') in 0.0057055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Icon.psd
+  artifactKey: Guid(de8562ddce269924caf4c69770663b3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Icon.psd using Guid(de8562ddce269924caf4c69770663b3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd60cdf0e1d09cd8623e939a70be74ab7') in 0.0069502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Key/Key.png
+  artifactKey: Guid(43f63da3ba95f474c8603f347c5f5df1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Key/Key.png using Guid(43f63da3ba95f474c8603f347c5f5df1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b16e375a3f25504014df08483cd000a') in 0.005978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Turquoise.png
+  artifactKey: Guid(9980e2855481b874c9b9c40b6ff57b84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Icon Club/Turquoise.png using Guid(9980e2855481b874c9b9c40b6ff57b84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b34832fcd6e8b4f5f677f40c55c69b69') in 0.0065966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Blue-Turquoise.png
+  artifactKey: Guid(e4990d398c9c89c49b9c5c10c822a61e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Blue-Turquoise.png using Guid(e4990d398c9c89c49b9c5c10c822a61e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e43eecdfc29cd4641feb41b08670729d') in 0.0070007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Eye/White.png
+  artifactKey: Guid(af585b6e8b1cb9544b3b0489bc98aa3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Eye/White.png using Guid(af585b6e8b1cb9544b3b0489bc98aa3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e83fccb3aa2aff7e6b8401bb4bdc3fff') in 0.0064588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sherif Stars/Grey.png
+  artifactKey: Guid(8ead451b56ea2444eafb9c36e8afa313) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sherif Stars/Grey.png using Guid(8ead451b56ea2444eafb9c36e8afa313) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5276c481e27570465061fa2bfe209ab8') in 0.0074859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Blue.png
+  artifactKey: Guid(07f0abc46b9b06346aeb2b285e443f1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Blue.png using Guid(07f0abc46b9b06346aeb2b285e443f1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13bcd8f00c4f48b19143036772a6d59b') in 0.0060872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Podium/Podium.png
+  artifactKey: Guid(1e704078582e83040a0993a8406a7c68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Podium/Podium.png using Guid(1e704078582e83040a0993a8406a7c68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4009fe50c6b0d7905cea65075211a07f') in 0.0060264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ffa57e7ebd9939789379c9573c9ba93d') in 0.0041095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Chest/Chest 3.png
+  artifactKey: Guid(be2f0726bafd9c84bb0fa1d219c8d1f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Chest/Chest 3.png using Guid(be2f0726bafd9c84bb0fa1d219c8d1f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1295f099317495f88a543339b0a15001') in 0.0063368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Cup/Cup 82.png
+  artifactKey: Guid(584137d1c5960e04f998a840cae69ac7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Cup/Cup 82.png using Guid(584137d1c5960e04f998a840cae69ac7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '197f6790de98baa2d6c3cdcbfbac3d16') in 0.0064171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gun/Gun.psd
+  artifactKey: Guid(dc09f79e1ce72544ba7e42b15b049b77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gun/Gun.psd using Guid(dc09f79e1ce72544ba7e42b15b049b77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3c0e901139e7280d18a6d3cc99c2471') in 0.0071114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Radial Shine/Multi Radial.raw
+  artifactKey: Guid(56257fd9fc24d884981060c910b9a33e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Radial Shine/Multi Radial.raw using Guid(56257fd9fc24d884981060c910b9a33e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27db5bd7ab7553ee4ec566738ea0eb95') in 0.0018495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Ball/Ball.png
+  artifactKey: Guid(e9d7a608605ae9446ab967e211ccbe84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Ball/Ball.png using Guid(e9d7a608605ae9446ab967e211ccbe84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a1a24859dbe1fb09715ad6855e647a7') in 0.0058605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Clover/Outline.png
+  artifactKey: Guid(550fa4be4623eb54489a0153eea9154c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Clover/Outline.png using Guid(550fa4be4623eb54489a0153eea9154c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6db26ecf80f2ce6abfcea6077b2b205a') in 0.0072318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Card.psd
+  artifactKey: Guid(a9c6c04c2a7ab304fb0c3c7db172c481) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Card/Card.psd using Guid(a9c6c04c2a7ab304fb0c3c7db172c481) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9204cd6a537d326a77b7e7412420944') in 0.0057828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21c52290c9b75b9610878d3b7e67b9c3') in 0.0061491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/Green.png
+  artifactKey: Guid(4a98075d6d59ebe4499cd92a59d16225) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/Green.png using Guid(4a98075d6d59ebe4499cd92a59d16225) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9135dcce93a8d398c806b84c5c64a9aa') in 0.0074685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/White.png
+  artifactKey: Guid(5a048fec5424fbf449daf9e6c0e4e0de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Heart/White.png using Guid(5a048fec5424fbf449daf9e6c0e4e0de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3807ba0b040b65c304bce0fded4045f') in 0.0068184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Mauve.png
+  artifactKey: Guid(89370414f8301e446884d6a76a8a4a19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Mauve.png using Guid(89370414f8301e446884d6a76a8a4a19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc82c86f25c1fdefea43f2aa77197ced') in 0.0069705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Orange.png
+  artifactKey: Guid(02e22a0fdaf085e419108ab549a53ee4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Shield/Orange.png using Guid(02e22a0fdaf085e419108ab549a53ee4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '968a35311d93e902e9b634294e38ae75') in 0.0063768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '976ae80dade203f8e2ff8c70f8201e16') in 0.0079075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Mail/Outline.png
+  artifactKey: Guid(b29866249248b074baace748df82c482) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Mail/Outline.png using Guid(b29866249248b074baace748df82c482) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25bb5445cf1d17e68bce941a3fc4e705') in 0.0078132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Green.png
+  artifactKey: Guid(506dc8c9f03ff4f4da2c82767213f5f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Skull/Green.png using Guid(506dc8c9f03ff4f4da2c82767213f5f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ffd3e331b5dcb4612d4f9d757670d3c') in 0.0059568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Hand/Hand 2.png
+  artifactKey: Guid(afc23f2924d788a409baedede60985bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Hand/Hand 2.png using Guid(afc23f2924d788a409baedede60985bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc64dbcbaf4292b45eefdbda009afece') in 0.0068133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Gift.psd
+  artifactKey: Guid(f94c54089d48bff4d9cc13bcb290d708) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Gift/Gift.psd using Guid(f94c54089d48bff4d9cc13bcb290d708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4570f60b2db1bc889eb5646828db4341') in 0.0058638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.176483 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Stars/Bronze.png
+  artifactKey: Guid(1a9caa79d8aa8d4488db45fc634a8682) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Stars/Bronze.png using Guid(1a9caa79d8aa8d4488db45fc634a8682) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8cc5e99d66f8a87e19cda68038418e5') in 0.0068996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Gift.png
+  artifactKey: Guid(71624b9883be6624ab1933a10dede27b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Gift.png using Guid(71624b9883be6624ab1933a10dede27b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3291855ba870fd664f39dc348414daa8') in 0.0149094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Background Key.png
+  artifactKey: Guid(e73ef8fe5a6f64a40bf4fb69f9f1af03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Background Key.png using Guid(e73ef8fe5a6f64a40bf4fb69f9f1af03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '163b9ef3cb18a9d2e0f4a47541246ee1') in 0.0060049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Case Chest.png
+  artifactKey: Guid(9841723ba294daa42972bce807d93174) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Case Chest.png using Guid(9841723ba294daa42972bce807d93174) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cada6004c2e550d3a0f4dff9a12d2130') in 0.0071387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Gift___.png
+  artifactKey: Guid(c7e1e364c95e0c943bfa89962a6c93a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Gift___.png using Guid(c7e1e364c95e0c943bfa89962a6c93a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48a12e3382200b714a0a291fc9dba5bc') in 0.0056647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Close Yellow.png
+  artifactKey: Guid(5d63e2f130bccc74a8c34bf480357ba2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Close Yellow.png using Guid(5d63e2f130bccc74a8c34bf480357ba2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '999d415300ac70f3b79a6ac1afc5ffb0') in 0.0158895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Yellow Button Open.png
+  artifactKey: Guid(9cd3679652c48944a8e43ab8ccafe608) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Yellow Button Open.png using Guid(9cd3679652c48944a8e43ab8ccafe608) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81444eaf5b311b65560bfa0fe4c99382') in 0.0114734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Purple Button Open.png
+  artifactKey: Guid(3dc65e8631455cd4d8916520d3e2990b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Purple Button Open.png using Guid(3dc65e8631455cd4d8916520d3e2990b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '415df16035f70aefe5eaba70357aed82') in 0.0065225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sword/White.png
+  artifactKey: Guid(b57c214063e94fc46a649800d8dd9b87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sword/White.png using Guid(b57c214063e94fc46a649800d8dd9b87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0efd7bf47e2409418056ed62b3e56f57') in 0.0063111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button3.png
+  artifactKey: Guid(4e134730a112dec4e8467371c0aceda2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Button3.png using Guid(4e134730a112dec4e8467371c0aceda2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2db3024a075a7bf76ada2326c16ee155') in 0.0056303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Stars/Yellow.png
+  artifactKey: Guid(c62d2eea78d34c6499bcb73d1fa4779c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Stars/Yellow.png using Guid(c62d2eea78d34c6499bcb73d1fa4779c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e73340481917e1cbefe1d6e4ee3de1a2') in 0.0052047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Green Button Claim.png
+  artifactKey: Guid(53b04564ee76a5f44a6eeb0443fd1fc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Green Button Claim.png using Guid(53b04564ee76a5f44a6eeb0443fd1fc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '794b82f17eed2e5af988d0f6543ef904') in 0.0059699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Token/Bolt Token.png
+  artifactKey: Guid(74ad5d0b40af6de4990be4f57ec5bb60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Token/Bolt Token.png using Guid(74ad5d0b40af6de4990be4f57ec5bb60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6fd594f0be6869215ed3beff7629594') in 0.0054138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Yellow.png
+  artifactKey: Guid(c18e14cdafadc574c8b33cbd5f62c955) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Rectangle Progress Bar Yellow.png using Guid(c18e14cdafadc574c8b33cbd5f62c955) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b68a9b8c08765723253c75c22bc4e841') in 0.0070326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Blue Square.png
+  artifactKey: Guid(fbb809cd7e4fd064b8a63e71f85242d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Blue Square.png using Guid(fbb809cd7e4fd064b8a63e71f85242d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd9b2cda5a0dd14f29e2234f75a2f801') in 0.0057701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Info.png
+  artifactKey: Guid(b949522bc7777bb478aaa03ccc754dd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Info.png using Guid(b949522bc7777bb478aaa03ccc754dd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76289d1096e553c1fb6bcb2558b47a5d') in 0.0060358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Yellow.png
+  artifactKey: Guid(9278c45dc5427aa4d91a1f94680cf28f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Square Yellow.png using Guid(9278c45dc5427aa4d91a1f94680cf28f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e608efb9de569a8f227f9e2d21e120a2') in 0.0055908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100c.png
+  artifactKey: Guid(bafdcfb8288258542bb1c6643e182b33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/100c.png using Guid(bafdcfb8288258542bb1c6643e182b33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4b4fe673036ded7ad3a0370f143957c') in 0.0066336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Sound.png
+  artifactKey: Guid(47dcfff609dd89a4f9fe3db804083472) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Sound.png using Guid(47dcfff609dd89a4f9fe3db804083472) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf14a9f3871d54d47bbfad4abfcd23f2') in 0.0053164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Wizard Hat/White.png
+  artifactKey: Guid(0de6fcfff8d64d34a8f59009141d9b40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Wizard Hat/White.png using Guid(0de6fcfff8d64d34a8f59009141d9b40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4551734bb2fe327c8fd3d6204b982b36') in 0.0068305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Blue Button Open.png
+  artifactKey: Guid(aa5b428515ab5b843af56b1b1a86002a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Blue Button Open.png using Guid(aa5b428515ab5b843af56b1b1a86002a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac8cbca7666fefeca0bcb9dab2ef38dd') in 0.0057502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/10.png
+  artifactKey: Guid(c19ccab772ebac34f921875c28d7678f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/10.png using Guid(c19ccab772ebac34f921875c28d7678f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4634e2478dc1cf7293d49f319a162de8') in 0.0072374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Progress Bar in game.png
+  artifactKey: Guid(7cc3b324388be164a80befd8ea03dcbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Background Progress Bar in game.png using Guid(7cc3b324388be164a80befd8ea03dcbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcc0be416cbd0b39f023e0a448ccc561') in 0.0083034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Background Chest Prize Machine.png
+  artifactKey: Guid(de99fcf249c21c84e99fb0525f3b89cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Prize Machine-assets/Background Chest Prize Machine.png using Guid(de99fcf249c21c84e99fb0525f3b89cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0e0ba3acdb069d6688f264bdd3fdab1') in 0.0087082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Blue.png
+  artifactKey: Guid(d222cb0073af0314c94f0b969989936d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Bar Progress in game Blue.png using Guid(d222cb0073af0314c94f0b969989936d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32fdbcd8b968d49c8a2de98481d264e5') in 0.0071657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Open.png
+  artifactKey: Guid(c620a070aa68db14295638283d8f963f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Open.png using Guid(c620a070aa68db14295638283d8f963f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4cd2bf90efd58d0dd2452aa47c60c6a') in 0.0052952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Unlok random 1.png
+  artifactKey: Guid(764c880effa81a848bafadbd37cc0315) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Home-assets/Unlok random 1.png using Guid(764c880effa81a848bafadbd37cc0315) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b585612d9ecf3c7aa512a33a6fae148') in 0.0074325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Start.png
+  artifactKey: Guid(8c30c9d01d995b64ba81b32b88a3d150) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Purple Button Start.png using Guid(8c30c9d01d995b64ba81b32b88a3d150) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '277b73e539fad9ad5e57fc632f547744') in 0.0060971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline.png
+  artifactKey: Guid(d438d7dfdc9501b4db48485eba0a4ef3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/In Game-assets/Outline.png using Guid(d438d7dfdc9501b4db48485eba0a4ef3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d179edbe805e5be616a4eef5db8b65a') in 0.0077452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Ribbon 2.png
+  artifactKey: Guid(911dd65a950b4164fbcf2fad2ab31ec2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Ribbon 2.png using Guid(911dd65a950b4164fbcf2fad2ab31ec2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8313b7570308ca99c5ecda21cc52a4fb') in 0.0072592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sword/Sword.psd
+  artifactKey: Guid(29195524e9df51242b7a71d974ae8a15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Items PSD + PNG/Sword/Sword.psd using Guid(29195524e9df51242b7a71d974ae8a15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '251ce18ec4550749d921c2560fff7ace') in 0.0058127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Green Button Skip.png
+  artifactKey: Guid(b022c627514338746950564b774c4ca9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GUI Mobile Hyper-Casual/Sprites/Sprites by Menu/Buttons-assets/Pub Green Button Skip.png using Guid(b022c627514338746950564b774c4ca9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2a8fd7a0bdb623f8cecbaf39ba2ef75') in 0.0058628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
